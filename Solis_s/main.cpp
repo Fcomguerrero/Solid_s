@@ -1,13 +1,22 @@
 #include <iostream>
 #include "include/task.h"
+#include "include/Imprimir.h"
 
 using namespace std;
 
 int main() {
 
-	string task_name = "Homework";
-	Task task = Task(task_name);
+	Task task = Task();
+	Imprimir impresora = Imprimir();
 
-	cout << "Task Name: " << task_name << endl;
+	task.setTask("Homework");
+	string getTaskk = task.getTask();
+
+	//cout << "funcion getTaskk --> " << getTaskk << endl;
+
+	task.printTask();  //Mal Solid (S)
+
+	impresora.imprimir(task); //Buena Solid (S)
+
 	return 0; 
 }

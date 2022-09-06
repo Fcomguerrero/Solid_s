@@ -6,7 +6,9 @@ using namespace std;
 
 class Task {
 public:
-	Task(const string& task_name);
+	string getTask();
+	void setTask(string task_name);
+	void printTask();
 
 private:
 	string task_name_;

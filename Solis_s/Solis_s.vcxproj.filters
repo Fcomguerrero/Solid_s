@@ -21,9 +21,15 @@
     <ClCompile Include="src\task.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+    <ClCompile Include="src\Imprimir.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\task.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Imprimir.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>
